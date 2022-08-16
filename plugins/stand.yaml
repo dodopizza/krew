@@ -5,15 +5,15 @@ metadata:
 spec:
   homepage: https://github.com/dodopizza/stand-schedule-policy-controller
   shortDescription: Startup or shutdown command stand and associated resources
-  version: v1.0.0
+  version: v1.0.1
   description: |
     Plugin for starting up or shutting down Kubernetes applications located in dedicated namespace
     and associated cloud resources. This plugin override startup or shutdown time for corresponding StandSchedulePolicy object
   caveats: |
     None
   platforms:
-    - uri: https://github.com/dodopizza/stand-schedule-policy-controller/releases/download/1.0.0/kubectl-stand_Darwin_x86_64.tar.gz
-      sha256: 63da98fa6bd808559765b4133fd92b7f5c26f97ad03e26cc72eca62256173786
+    - uri: https://github.com/dodopizza/stand-schedule-policy-controller/releases/download/1.0.1/kubectl-stand_Darwin_x86_64.tar.gz
+      sha256: e3aff90e3ab46c439e6c834460781da960dc76711e79724e91dcf75b7e6309fe
       bin: kubectl-stand
       files:
         - from: kubectl-stand
@@ -22,8 +22,8 @@ spec:
         matchLabels:
           os: darwin
           arch: amd64
-    - uri: https://github.com/dodopizza/stand-schedule-policy-controller/releases/download/1.0.0/kubectl-stand_Darwin_arm64.tar.gz
-      sha256: d3221729086476e48a412d32cb44e7e4a77e7cb8ec97e752bae17c5ee6c6879c
+    - uri: https://github.com/dodopizza/stand-schedule-policy-controller/releases/download/1.0.1/kubectl-stand_Darwin_arm64.tar.gz
+      sha256: 184fc15a7d2c5613563dd03adbdd9363e5eb0310c428241348311d3bf0d8c5b6
       bin: kubectl-stand
       files:
         - from: kubectl-stand
@@ -32,8 +32,8 @@ spec:
         matchLabels:
           os: darwin
           arch: arm64
-    - uri: https://github.com/dodopizza/stand-schedule-policy-controller/releases/download/1.0.0/kubectl-stand_Linux_x86_64.tar.gz
-      sha256: a2ca3561ef6a9f938c836a5adfb9289a322ac474de6a5461a696690fea9ffce7
+    - uri: https://github.com/dodopizza/stand-schedule-policy-controller/releases/download/1.0.1/kubectl-stand_Linux_x86_64.tar.gz
+      sha256: 578ac042a1cf4ca1887e8ca1d602e8a93c3bc8aa6449dcf8e6c913fdcab7410a
       bin: kubectl-stand
       files:
         - from: kubectl-stand
@@ -42,8 +42,8 @@ spec:
         matchLabels:
           os: linux
           arch: amd64
-    - uri: https://github.com/dodopizza/stand-schedule-policy-controller/releases/download/1.0.0/kubectl-stand_Linux_arm64.tar.gz
-      sha256: a13032e324f212d2a2656b8068a1099febef1343b50febd7ec7d6e053a58b393
+    - uri: https://github.com/dodopizza/stand-schedule-policy-controller/releases/download/1.0.1/kubectl-stand_Linux_arm64.tar.gz
+      sha256: f10b49d575c91d9448f5e8345185f3c8385b1cb7dff6c67dc82a340513beab2e
       bin: kubectl-stand
       files:
         - from: kubectl-stand
@@ -52,8 +52,8 @@ spec:
         matchLabels:
           os: linux
           arch: arm64
-    - uri: https://github.com/dodopizza/stand-schedule-policy-controller/releases/download/1.0.0/kubectl-stand_Windows_x86_64.zip
-      sha256: 536785cbd28c176b4630c3e4421a26e2491d6f1f531e31f3e9e37a592c215467
+    - uri: https://github.com/dodopizza/stand-schedule-policy-controller/releases/download/1.0.1/kubectl-stand_Windows_x86_64.zip
+      sha256: 7784c4d3f40fe8b8a357862dd2f6dcc6216091ae42b199c15fed8bde0b2c7cb4
       bin: kubectl-stand.exe
       files:
         - from: kubectl-stand.exe
