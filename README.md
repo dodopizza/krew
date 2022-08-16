@@ -16,3 +16,18 @@
 kubectl krew index add dodopizza https://github.com/dodopizza/krew-index.git
 kubectl krew update
 ```
+
+## Install plugins
+
+To install any plugin from DodoPizza Index, use following command:
+
+```bash
+kubectl krew install dodopizza/<plugin-name>
+```
+
+For example:
+
+```bash
+kubectl krew install dodopizza/app-traffic
+kubectl krew install dodopizza/stand
+```
