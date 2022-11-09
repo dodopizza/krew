@@ -17,6 +17,15 @@ kubectl krew index add dodopizza https://github.com/dodopizza/krew-index.git
 kubectl krew update
 ```
 
+To authenticate with github on https scheme, use [PAT](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
+
+Also, SSH scheme supported:
+
+```bash
+kubectl krew index add dodopizza git@github.com:dodopizza/krew-index.git
+kubectl krew update
+```
+
 ## Install plugins
 
 To install any plugin from DodoPizza Index, use following command:
