@@ -7,43 +7,43 @@ spec:
   version: v1.0.0
   platforms:
     - bin: kubectl-dodoappservice.exe
-      uri: https://github.com/dodopizza/krew-index/releases/download/1.0.0/kubectl-dodoappservice_1.0.0_windows_arm64.zip
-      sha256: edca2ca61be692e1f4f2905699b033d561ddfa7ee7664b6104d8a7a28d6f7c4f
+      uri: https://github.com/dodopizza/krew/releases/download/1.0.0/kubectl-dodoappservice_1.0.0_windows_arm64.zip
+      sha256: 3fef9007b8ad7f816b64a981c6bd954d903ead364ca0bcc3b02c13fd96a374a5
       selector:
         matchLabels:
           os: windows
           arch: arm64
     - bin: kubectl-dodoappservice.exe
-      uri: https://github.com/dodopizza/krew-index/releases/download/1.0.0/kubectl-dodoappservice_1.0.0_windows_amd64.zip
-      sha256: 915ac0ee94fc741421bb69b2204338daa8fa92cf635422a642058b8a3ef4ebc3
+      uri: https://github.com/dodopizza/krew/releases/download/1.0.0/kubectl-dodoappservice_1.0.0_windows_amd64.zip
+      sha256: 5470f4ff095d006ec7d95330ef39d638ae0d7d57f28ea270f01913dddc51d975
       selector:
         matchLabels:
           os: windows
           arch: amd64
     - bin: kubectl-dodoappservice
-      uri: https://github.com/dodopizza/krew-index/releases/download/1.0.0/kubectl-dodoappservice_1.0.0_linux_arm64.tar.gz
-      sha256: e6def56090e9bdb9adab7b248679da4c4bc0c35b2dfa92ffa41d28ff92706efc
+      uri: https://github.com/dodopizza/krew/releases/download/1.0.0/kubectl-dodoappservice_1.0.0_linux_arm64.tar.gz
+      sha256: 9fa8c4d3a08e3be6ae6b404ad805ec9ed5ad2b5c6561e5c8db3fb976a1ca9b7e
       selector:
         matchLabels:
           os: linux
           arch: arm64
     - bin: kubectl-dodoappservice
-      uri: https://github.com/dodopizza/krew-index/releases/download/1.0.0/kubectl-dodoappservice_1.0.0_linux_amd64.tar.gz
-      sha256: 5987e3151dbb75d4804644b9990596c1b12eab7d431488473e5072b35ef9ad06
+      uri: https://github.com/dodopizza/krew/releases/download/1.0.0/kubectl-dodoappservice_1.0.0_linux_amd64.tar.gz
+      sha256: e2888db13c6bfd3914c57b88e37c71a078192d23fd5bc1ec47f8d4e7b2e56f3c
       selector:
         matchLabels:
           os: linux
           arch: amd64
     - bin: kubectl-dodoappservice
-      uri: https://github.com/dodopizza/krew-index/releases/download/1.0.0/kubectl-dodoappservice_1.0.0_darwin_arm64.tar.gz
-      sha256: 45afbef4f9227389851eddb2667a58bd6429c0fb828ee688ec2f04e126e7a8a8
+      uri: https://github.com/dodopizza/krew/releases/download/1.0.0/kubectl-dodoappservice_1.0.0_darwin_arm64.tar.gz
+      sha256: eebff6a0282bb659bd8401b25b30fe1569d18fa7408532e8cf4312cebfca0024
       selector:
         matchLabels:
           os: darwin
           arch: arm64
     - bin: kubectl-dodoappservice
-      uri: https://github.com/dodopizza/krew-index/releases/download/1.0.0/kubectl-dodoappservice_1.0.0_darwin_amd64.tar.gz
-      sha256: 2de1624e28cabbf95173e5056e673a684f213406f71f1f33b5d40696f7e2e91f
+      uri: https://github.com/dodopizza/krew/releases/download/1.0.0/kubectl-dodoappservice_1.0.0_darwin_amd64.tar.gz
+      sha256: ab1a61648a70fb434857441914ebf24bd380cc282129c9937592817480b6f3d8
       selector:
         matchLabels:
           os: darwin
