@@ -37,6 +37,5 @@ kubectl krew install dodopizza/<plugin-name>
 For example:
 
 ```bash
-kubectl krew install dodopizza/app-traffic
-kubectl krew install dodopizza/stand
+kubectl krew install dodopizza/dodoappservice
 ```
