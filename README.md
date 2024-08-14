@@ -12,7 +12,13 @@
 ### Install dodopizza's krew plugins
 
 ```bash
-# kubectl krew install dodopizza/<plugin-name>
-# example
-kubectl krew install dodopizza/dodoappservice
+# Setup index
+kubectl krew index add dodopizza https://github.com/dodopizza/krew
+kubectl krew update
+
+# List avaliable dodopizza's plugins
+kubectl krew search dodopizza/
+
+# Install plugin
+kubectl krew install dodopizza/<plugin name>
 ```
