@@ -1,0 +1,12 @@
+name: Security checks
+
+on:
+  push:
+
+jobs:
+  security-check:
+    name: Security checks
+    uses: dodopizza/security-action/.github/workflows/infra-security-checks.yml@main
+    with:
+      block-on-vulnerabilities: false
+    secrets: inherit
